@@ -1,13 +1,11 @@
 > **Intunewin32: ScheduledTask-System**
 
 ### Commands
-Install Command:
-Uninstall Command:
+Install Command: **%SystemRoot%\Sysnative\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -file .\install.ps1**
 
-### Detection
+Uninstall Command: **%SystemRoot%\Sysnative\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -file .\uninstall.ps1**
 
-| Left columns  | Right columns |
-| ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
+Install behavior: System
+
+### Detection Rules
+Use and adjust the custom detection script (detection.ps1) if needed.

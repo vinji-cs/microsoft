@@ -2,13 +2,15 @@
 
 ### Commands
 Install Command: **%SystemRoot%\Sysnative\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -file .\install.ps1**
+
 Uninstall Command: **%SystemRoot%\Sysnative\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -file .\uninstall.ps1**
+
 Install behavior: **System**
 
 ### Detection
 
-| Detection Option     | Value         |
-| ------------- |-------------|
+| Detection option     | Value         |
+| ------------- | -------------|
 | Key path      | HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AAD     |
 | Value name      | AutoAcceptSsoPermission     |
 | Detection method     | Integer comparison     |
