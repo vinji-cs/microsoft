@@ -24,7 +24,7 @@ Unregister-ScheduledTask `
 # Copy the script we want to run with the scheduled task to the directory
 Copy-Item `
     (Join-Path -Path "$PSScriptRoot\files" -ChildPath "task-user.ps1") `
-    $systemScript `
+    $userScript `
     -Force
 
 # Everything is in place, lets create the scheduled task
